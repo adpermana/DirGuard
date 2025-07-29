@@ -23,12 +23,12 @@ from watchdog.events import FileSystemEventHandler
 from datetime import datetime
 
 # Konfigurasi
-VT_API_KEY          = "VT_API_KEY"
-TELEGRAM_TOKEN      = "xxx:xxxxxxx"
-TELEGRAM_CHAT_ID    = "CHAT_ID"
-WATCH_DIR           = "/path/directory"                 # Folder yang dipantau
-QUARANTINE_DIR      = "/path/dir-to-save-malware"       # Folder untuk karantina file terindikasi malware (VirusTotal)
-ALLOWED_EXTENSIONS  = ['.sh', '.py', '.elf', '.php']    # Ekstensi yang dicek VT
+VT_API_KEY          = "xxxx"                            # API Key VirusTotal
+TELEGRAM_TOKEN      = "xxx:xxxxxxxxxxx"                 # Kode Token Telegram
+TELEGRAM_CHAT_ID    = "xxxxx"                           # Kode Chat_ID Telegram
+WATCH_DIR           = "/path/directory"                 # sesuaikan dengan Folder yang akan dilakukan monitoring
+QUARANTINE_DIR      = "/path/others-dir/quarantine"     # sesuaikan dengan Folder karantina yang menyimpan file terindikasi malicious
+ALLOWED_EXTENSIONS  = ['.sh', '.py', '.elf', '.php']    # Ekstensi yang dicek virustotal
 MALICIOUS_THRESHOLD = 5                                 # Threshold untuk karantina
 SLEEP_INTERVAL      = 15                                # Jeda tunggu setelah upload (detik)
 
