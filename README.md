@@ -49,16 +49,16 @@ SLEEP_INTERVAL      = 15                                # Jeda tunggu setelah up
 
 ---
 
-## ▶️ Menjalankan
+## ▶️ RUN
 
 ```bash
 python3 dirguard.py
 ```
 
-```background
+## ▶️ RUN BACKGROUND
+```bash
 python3 dirguard.py &
 ```
-
 ---
 
 ## 📦 Contoh Notifikasi Telegram
@@ -69,11 +69,10 @@ VirusTotal: 25/78
 File quarantined!
 /home/admin/EX/test.php
 ```
-
 ---
 
 ## 📜 Lisensi
 
-MIT License – bebas digunakan, dimodifikasi, dan dibagikan.
+MIT License
 
 ---
