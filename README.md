@@ -1,7 +1,7 @@
 
 # DirGuard with AI Contribution
 
-**DirGuard** merupakan Script berbasi Python Code yang dirancang untuk:
+**DirGuard** merupakan Script berbasis Python Code yang dirancang untuk:
 - 🛡️ Memantau perubahan pada direktori dan file
 - 🔍 Mendeteksi adanya file yang baru ditambahkan, dimodifikasi, dan dilakukan penghapusan
 - ☁️ Melakukan pemeriksaan reputasi file melalui integrasi dengan VirusTotal
