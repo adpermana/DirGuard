@@ -40,9 +40,9 @@ pip install requests watchdog
 VT_API_KEY          = "xxxx"                            # API Key VirusTotal
 TELEGRAM_TOKEN      = "xxx:xxxxxxxxxxx"                 # Kode Token Telegram
 TELEGRAM_CHAT_ID    = "xxxxx"                           # Kode Chat_ID Telegram
-WATCH_DIR           = "/path/directory"                 # Folder yang dipantau
-QUARANTINE_DIR      = "/path/directory/quarantine"      # Folder karantina
-ALLOWED_EXTENSIONS  = ['.sh', '.py', '.elf', '.php']    # Ekstensi yang dicek VT
+WATCH_DIR           = "/path/directory"                 # sesuaikan dengan Folder yang akan dilakukan monitoring
+QUARANTINE_DIR      = "/path/others-dir/quarantine"     # sesuaikan dengan Folder karantina yang menyimpan file terindikasi malicious
+ALLOWED_EXTENSIONS  = ['.sh', '.py', '.elf', '.php']    # Ekstensi yang dicek virustotal
 MALICIOUS_THRESHOLD = 5                                 # Threshold untuk karantina
 SLEEP_INTERVAL      = 15                                # Jeda tunggu setelah upload (detik)
 ```
